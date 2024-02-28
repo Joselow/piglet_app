@@ -10,7 +10,6 @@ import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-
 const firebaseConfig = {
   apiKey: "AIzaSyCC3BSChtOBEjEpKUsDjhGYsSClrZcGbMA",
   authDomain: "piglet-app-3908c.firebaseapp.com",
