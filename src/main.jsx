@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -6,7 +5,7 @@ import './index.css'
 import { initializeApp  } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';
 
-import { getAnalytics } from "firebase/analytics";
+// import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -29,8 +28,10 @@ export {
 }
 // const analytics = getAnalytics(app);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+root.render(
   // <React.StrictMode>
     <App />
   // </React.StrictMode>,
-)
+);

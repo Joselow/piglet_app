@@ -1,3 +1,4 @@
 - falta estilos -- BEM
 - falta componetizar
 - Falta login con react router - para ver pedidos y landing
+- Falta validación
